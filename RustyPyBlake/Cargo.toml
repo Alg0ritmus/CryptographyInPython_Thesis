@@ -1,0 +1,25 @@
+[package]
+name = "rustypyblake"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "rustypyblake"
+crate-type = ["cdylib"]
+
+
+[dependencies.pyo3]
+version = "0.15.1"
+features = ["extension-module"]
+
+[features]
+neon = ["blake3/neon"]
+
+[dependencies]
+blake3 = { version = "1.0.0", features = ["rayon"] }
+time = "*"
+chrono = "0.4"
+
+
