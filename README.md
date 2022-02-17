@@ -13,7 +13,7 @@ Test Blake3-rust :heavy_check_mark:
 Bridge Blake3 to py :heavy_check_mark:  
 Test py-Blake3 :heavy_check_mark:  
 Edit Test functions (not all is working properly) :heavy_exclamation_mark:  
-Edit getHexDigest in RustyPyBlake/testRustPyModule/blake3.py -> check bytes conversion in thesis :heavy_exclamation_mark: 
+Edit getHexDigest in RustyPyBlake/testRustPyModule/blake3.py -> check bytes conversion in thesis :heavy_exclamation_mark:   
 Test py-Blake3 on varios amount of threats :heavy_exclamation_mark:  
 Create Docs :heavy_exclamation_mark:  
 
