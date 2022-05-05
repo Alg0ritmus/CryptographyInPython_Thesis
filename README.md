@@ -24,5 +24,5 @@ V tabuľke nižsie sú opísane verzie programovacích jazykov a nástrojov vyu�
 
 <br><br>
 
-> Všetky dostupné kódy sú súčasťou experimentálnej časti Bc. práce: Kryptografia v Pythone. Zároveň prehlasujem, že vsetky dostupné kódy som vytvoril sám.  
+> Všetky dostupné kódy sú súčasťou experimentálnej časti Bc. práce: Kryptografia v Pythone. Zároveň prehlasujem, že všetky dostupné kódy som vytvoril sám.  
 P.Z.
