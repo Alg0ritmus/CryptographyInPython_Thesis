@@ -5,7 +5,7 @@ Tento repozitár je súčasťou experimentálnej časti bakalárskej práce: __K
 Tento adresár obsahuje niekoľko podadresárov, ktoré demonštrujú rôzne spôsoby prepojenia externého Rust modulu Blake3 s jazykom Python. Súčastou adresára __blake3__ sú aj dynamické Python knižnice, ktoré môže čítateľ otestovať bez potreby prepájania externého modulu.
 <br><br><br>
 ## Adresár rychlost_test_algo
-Tento adresár obsahuje niekoľko podadresárov, ktoré boli vytvorené za účelom otestovania kryptografických algoritmov a protokolov z hľadiska rýchlosti vykonávania kryptografických úkonov pre Python kryptografické moduly Cryptography, PyCryptodome a Hashlib.
+Tento adresár obsahuje niekoľko súborov, ktoré boli vytvorené za účelom otestovania kryptografických algoritmov a protokolov z hľadiska rýchlosti vykonávania kryptografických úkonov pre Python kryptografické moduly Cryptography, PyCryptodome a Hashlib.
 <br><br><br>
 ## Adresár testovania_modulov
 Adresár __testovania_modulov__ slúži na otestovanie kryptografických Python modulov Cryptography, PyCryptodome a Hashlib, z hľadiska správneho vykonávania kryptografických úkonov.
