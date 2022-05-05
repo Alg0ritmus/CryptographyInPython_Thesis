@@ -1,5 +1,5 @@
 # Bakalárska práca: Kryptografia v Pythone
-Tento repozitár je súčasťou experimentálnej časti bakalárskej práce: __Kryptografia v Pythone__. Repozitár obsahuje 3 adresáre, v ktorých sa nachádzajú všetky zdrojové kódy vytvorené k tejto bc. práci.
+Tento repozitár je súčasťou experimentálnej časti bakalárskej práce: __Kryptografia v Pythone__. Repozitár obsahuje 3 adresáre, v ktorých sa nachádzajú všetky zdrojové kódy, vytvorené k tejto bc. práci.
 <br><br><br>
 ## Adresár blake3
 Tento adresár obsahuje niekoľko podadresárov, ktoré demonštrujú rôzne spôsoby prepojenia externého Rust modulu Blake3 s jazykom Python. Súčastou adresára __blake3__ sú aj dynamické Python knižnice, ktoré môže čítateľ otestovať bez potreby prepájania externého modulu.
