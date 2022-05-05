@@ -22,7 +22,7 @@ V tabuľke nižsie sú opísane verzie programovacích jazykov a nástrojov vyu�
 |Blake3|1.3.1|
 |maturin|0.11.5|
 
-<br><br><br> 
+<br><br>
 
 > Všetky dostupné kódy sú súčasťou experimentálnej časti Bc. práce: Kryptografia v Pythone. Zároveň prehlasujem, že vsetky dostupné kódy som vytvoril sám.  
 P.Z.
