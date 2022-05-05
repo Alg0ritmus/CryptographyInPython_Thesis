@@ -1,4 +1,3 @@
-from cgi import test
 import hashlib
 data=b"000000000000000000"
 
