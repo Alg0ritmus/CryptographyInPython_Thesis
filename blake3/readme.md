@@ -4,7 +4,8 @@ Tento adresár obsahuje niekoľko podadresárov, ktoré sú zamerané na demonš
 ```diff
 -Varovanie: Všetky DLL knižnice pre jazyk Python (súbory s príponou .pyd) sú generované pre verziu Python 3.8.10. 
 -Ak používaťe inú verziu Pythonu, je nutné vygenerovať nové DLL knižnice kompatibilné s vašou verziou Pythonu. 
--Pre vygenerovanie DLL knižnice `rusty_py_blake3.pyd` je -nutné si vybrať jedenu z dostupných metód (1_Maturin/2_Setuptools/3_Manual) a postupovať podľa uvedeného návodu.
+-Pre vygenerovanie DLL knižnice `rusty_py_blake3.pyd` je -nutné si vybrať jedenu z dostupných metód 
+-(1_Maturin/2_Setuptools/3_Manual) a postupovať podľa uvedeného návodu.
 ```
 __Poznámka: Pri generovaní DLL knižníc je potrebné mať nainštalovaný prog. jazyk <a href="https://www.rust-lang.org/tools/install">Rust.</a>__
 
