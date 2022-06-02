@@ -1,6 +1,6 @@
 # Poznámky: /P.Z.
 
-Referenčný kód funkcie Blake3 pre jazyk Python je dostupný <a href="https://github.com/oconnor663/pure_python_blake3" >na tejto linke</a>.
+Referenčný kód funkcie Blake3 pre jazyk Python je dostupný <a href="https://github.com/oconnor663/pure_python_blake3" >na tejto linke</a>.<br>
 https://github.com/oconnor663/pure_python_blake3
 
 ---
