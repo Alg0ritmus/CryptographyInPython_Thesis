@@ -1,3 +1,10 @@
+# Poznámky: /P.Z.
+
+Referenčný kód funkcie Blake3 pre jazyk Python je dostupný <a href="https://github.com/oconnor663/pure_python_blake3" >na tejto linke</a>.
+https://github.com/oconnor663/pure_python_blake3
+
+---
+
 # Pure Python BLAKE3 [![Actions Status](https://github.com/oconnor663/pure_python_blake3/workflows/tests/badge.svg)](https://github.com/oconnor663/pure_python_blake3/actions)
 
 This project is a pure Python implementations of the BLAKE3 cryptographic hash
