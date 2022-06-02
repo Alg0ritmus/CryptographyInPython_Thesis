@@ -2,7 +2,7 @@
 
 Súbor test.py slúži na preklad kódu C implementácie. Mne sa to však nepodarilo poskladať pomocu test.py, preto som kód preložil pomocou GCC prekladdača.
 Preloženie kódu je realizované prostredníctvom dostupného bat súboru: `CryptographyInPython_Thesis/blake3/Blake3_reference_impl_comparison/reference_test.bat`.
-Referenčná implementácia pre jazyk C je dostupná <a href="https://github.com/oconnor663/blake3_reference_impl_c">na tejto linke</a>.
+Referenčná implementácia pre jazyk C je dostupná <a href="https://github.com/oconnor663/blake3_reference_impl_c">na tejto linke</a>.<br>
 https://github.com/oconnor663/blake3_reference_impl_c
 
 ---
