@@ -1,6 +1,7 @@
 ## Poznámky: /P.Z.
 
-Referenčný kód funkcie Blake3 pre jazyk Rust je dostupný <a href="https://github.com/BLAKE3-team/BLAKE3/tree/master/reference_impl" >na tejto linke</a>.
+Referenčný kód funkcie Blake3 pre jazyk Rust je dostupný <a href="https://github.com/BLAKE3-team/BLAKE3/tree/master/reference_impl" >na tejto linke</a>.<br>
+https://github.com/BLAKE3-team/BLAKE3/tree/master/reference_impl
 
 ---
 
