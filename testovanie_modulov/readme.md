@@ -7,7 +7,8 @@ Modul PyCryptodome ponúka automatizované pretestovanie modulu, založené na p
 1) `pip install pycryptodome-test-vectors` _(stiahnutie testovacích vektorov)_
 2) `python -m Cryptodome.SelfTest` _(spustenie jednotkových testov)_
 
-Podmienkou je samozrejme nainštalovaný modul PyCryptodome. Viac o jednotkových testoch pre modul PyCryptodome možno nájsť na linke: https://www.pycryptodome.org/en/latest/src/installation.html?highlight=test#installation 
+
+Podmienkou je samozrejme nainštalovaný modul PyCryptodome pomocou príkazu `pip install pycryptodomex`. Viac o jednotkových testoch pre modul PyCryptodome možno nájsť na linke: https://www.pycryptodome.org/en/latest/src/installation.html?highlight=test#installation 
 
 ## Modul Cryptography
 Podobne ako modul PyCryptodome, aj modul Cryptography ponúka automatizované pretestovanie modulu, založené na porovnávaní testovacích vektorov. Samotné jednotkové testy možno spustiť následujúcov postupnostou teminalových príkazov (v tomto prípade pre OS Windows):
