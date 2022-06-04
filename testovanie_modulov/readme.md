@@ -15,7 +15,7 @@ Podobne ako modul PyCryptodome, aj modul Cryptography ponúka automatizované pr
 1) Stiahnúť zdrojový kód (github repozitár): https://github.com/pyca/cryptography 
 2) Po stiahnutí repozitára nainštalujeme potrebné developerské balíčky (tie je možné potom odstrániť). Inštaláciu vykonáme v stiahnutom repozitári (adresár obsahuje potrebný súbor `dev-requirements.txt`) Inštalácia: `pip install -r dev-requirements.txt`.
 3) Po nainštalovaní všetkých potrebných modulov je vhodné sa uistiť, či verzia nainštalovaného modulu Cryptography je aktuálna. Príkaz `pip install cryptography --upgrade` automaticky aktualizuje a nainštaluje najnovšiu verziu modulu Cryptography. <br>
-    Resp. je možné nainštalovať konkrétnu verziu modulu: _1)_ odstranenie aktuálnej verzie modulu `pip uninstall Cryptography` _2._ nainštalovanie konkrétnej verzie modulu `pip install Cryptography==37.0.2`
+    Resp. je možné nainštalovať konkrétnu verziu modulu: _1)_ odstranenie aktuálnej verzie modulu `pip uninstall Cryptography` _2)_ nainštalovanie konkrétnej verzie modulu `pip install Cryptography==37.0.2`.
 5) `pytest` _(spustenie jednotkových testov, realizovane v adresári modulu - repozitár so súborom dev-requirements.txt)_ 
 6) Poznamka: Niektoré testy môžu zlyhať, pretože určité funkciu už nie su podporované aktuálne najnovšou verziou modulu Cryptography 37.0.2 (súvisi to aj so závislostou od knižnice OpenSSL a štruktúry zdrojových kódov). 
 
