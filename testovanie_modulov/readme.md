@@ -12,11 +12,14 @@ Podmienkou je samozrejme nainštalovaný modul PyCryptodome. Viac o jednotkovýc
 ## Modul Cryptography
 Podobne ako modul PyCryptodome, aj modul Cryptography ponúka automatizované pretestovanie modulu, založené na porovnávaní testovacích vektorov. Samotné jednotkové testy možno spustiť následujúcov postupnostou teminalových príkazov (v tomto prípade pre OS Windows):
 
-1) `pip install pytest` _(inštalácia modulu pre vykonanie jednotkových testov)_
-2) `pip install cryptography_vectors` _(stiahnutie testovacích vektorov)_
-3) `pytest` _(spustenie jednotkových testov, realizovane v adresári modulu - repozitár so súborom pyproject.toml)_ 
+1) Stiahnúť zdrojový kód (github repozitár): https://github.com/pyca/cryptography 
+2) Po stiahnutí repozitára nainštalujeme potrebné developerské balíčky (tie je možné potom odstrániť). Inštaláciu vykonáme v stiahnutom repozitári (adresár obsahuje potrebný súbor `dev-requirements.txt`) Inštalácia: `pip install -r dev-requirements.txt`.
+3) Po nainštalovaní všetkých poterbných modulov je vhodné sa uistiť, či verzia nainštalovaného modulu Cryptography je aktuálna. Príkaz `pip install cryptography --upgrade` automaticky aktualizuje a nainsštaluje najnovšiu verziu modulu Cryptography. <br>
+    Resp. je možné nainštalovať konkrétnu verziu modulu: 1. odstranenie aktuálnej verzie modulu `pip uninstall Cryptography` 2. nainštalovanie konkrétnej verzie modulu `pip install Cryptography==37.0.2`
+5) `pytest` _(spustenie jednotkových testov, realizovane v adresári modulu - repozitár so súborom dev-requirements.txt)_ 
+6) Poznamka: Niektoré testy môžu zlyhať, pretože určité funkciu už nie su podporované aktuálne najnovšou verziou modulu Cryptography 37.0.2 (súvisi to aj so závislostou od knižnice OpenSSL a štruktúry zdrojových kódov). 
 
-Podmienkou je samozrejme nainštalovaný modul Cryptography. Viac o jednotkových testoch pre modul Cryptography možno nájsť na linke: https://cryptography.io/en/latest/development/getting-started/?highlight=pytest#running-tests
+Podmienkou je samozrejme nainštalovaný (ideálne najnovšia verzia) modul Cryptography. Viac o jednotkových testoch pre modul Cryptography možno nájsť na linke: https://cryptography.io/en/latest/development/getting-started/?highlight=pytest#running-tests
 
 
 ## Modul Hashlib
