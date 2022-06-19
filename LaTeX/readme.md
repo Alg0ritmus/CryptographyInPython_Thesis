@@ -9,4 +9,4 @@ Požiadávky na lokálny preklad PDF súboru:
   4) Spustenie batch súboru.
 
 
-Práca bola písana pomocou online editora _Overleaf_: https://www.overleaf.com/, čiže prácu je možné jednocucho nahrať nahrať do online editora a PDF jednoducho vygenerovať resp. upraviť. 
+Práca bola písana pomocou online editora _Overleaf_: https://www.overleaf.com/, čiže prácu je možné jednoducho nahrať do online editora a PDF ľahko (stlačením tlačidla) vygenerovať resp. upraviť. 
